@@ -1,0 +1,108 @@
+body {
+    background: rgb(59, 57, 57);
+    color: white;
+    font-family: Helvetica Nue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* header*/
+
+header {
+ 
+    background: black;
+    background-image: url("images/moai-emoji.png");
+    background-size: 10%;
+    background-position: left;
+    background-repeat: repeat;
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 40px;    
+}
+/* work in progress :)
+header .logo a {
+
+    background-image: url("");
+    background-size: 80px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 80px;
+    position: relative;
+    width: 300px;
+    text-indent: -99999px;
+    top: -20px;
+    width: 300px;
+}
+*/
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;  
+    
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    
+
+}
+
+/* features */
+
+.features {
+    background: #2c2f33;
+    color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.features figure {
+    margin: auto;
+    text-align: left;
+    text-transform: none;
+    width: 200px;
+}
+/*  
+.features figure img {
+    border: 1px solid white;
+    border-radius: 100%;
+    box-shadow: gray 0px 0px 10px;
+    width: 200px;  
+}
+*/
+/* not in use 
+div {
+    background: orange;
+    margin: auto;
+    width: 100px;
+} */
+
+/* footer */
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: black;
+    padding: 10px 20px;
+    text-transform: lowercase;
+    text-align: left;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+  }
